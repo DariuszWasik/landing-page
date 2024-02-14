@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 100vh;
+    height: 100vh;
+}
+
+.cont {
+    border: black 1px solid;
+}
+
+.container1 {
+    flex: 5;
+    background-color: #1f2937;
+}
+
+.container2 {
+    flex: 5;
+    background-color: white;
+}
+
+.container3 {
+    flex: 4;
+    background-color: #e5e7eb;
+}
+
+.container4 {
+    flex: 3;
+    background-color:white;
+}
+
+.footer {
+    flex: 1;
+    background-color: #1f2937;
+}
