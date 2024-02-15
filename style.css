@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: stretch;
     font-family: sans-serif;
-    height: 1500px;
+    height: 100VH;
     
 }
 
@@ -26,6 +26,12 @@ body {
 .container2 {
     flex: 5;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .container3 {
@@ -109,5 +115,30 @@ a.link {
     font-weight: 500;
     border-radius: 12px;
     border: none;
+}
+
+/* container2 */
+
+.title2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.photo_cont {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.img4 {
+     border: solid 3px #3882F6; 
+     border-radius: 15px;
+     min-width: 0;
+   
+}
+
+.photo {
+    flex: 1 1 calc(25% - 10px)
+    
     
 }
