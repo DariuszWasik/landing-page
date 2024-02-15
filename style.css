@@ -18,7 +18,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 10px 300px;
+    padding: 10px 350px;
     justify-content: center;
     
 }
@@ -45,9 +45,6 @@ body {
 
 .header {
     display: flex;
-    font-size: 24px;
-    color: #F9faf8;
-    font-weight: 800;
     margin-bottom: auto;
 }
 
@@ -59,14 +56,17 @@ ul {
 }
 
 a.link {
-    color: #e5e7eb;
+    color: #e5e7eba1;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .logo {
     margin-right: auto;
+    font-size: 24px;
+    color: #F9faf8;
+    font-weight: 600;
 }
 
 .central {
@@ -74,7 +74,7 @@ a.link {
      justify-content: space-between;
     align-items: center;
     margin-bottom: auto;
-    gap: 60px;
+    gap: 80px;
 }
  .main{
      width: 50%;
@@ -89,14 +89,25 @@ a.link {
 }
 
 .description {
-    color: #e5e7eb;
+    color: #e5e7eba1;
     font-size: 18px;
+    font-weight: 300;
+    margin: 20px auto;
     font-weight: 100;
-    margin-top: 10px;
 }
 
 .central_img{
     width: 50%;
-    height: 200px;
+    height: 250px;
+}
 
+.singup1 {
+    background-color: #3882F6;
+    color: #F9faf8;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 12px;
+    border: none;
+    
 }
