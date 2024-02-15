@@ -45,6 +45,11 @@ body {
 .container4 {
     flex: 3;
     background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 400px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer {
@@ -151,10 +156,6 @@ a.link {
 
  /* container3 */
 
- .text,
- .autor {
-}
-
 .text  {
     color: #1f2937a2;
     font-style: italic;
@@ -166,5 +167,15 @@ a.link {
     text-align: end;
     font-weight: 1000;
     font-size: 25px;
-    
-  }
+      }
+
+/* container4 */
+
+.button-main  {
+    width: 800px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    background: #3882F6;
+    justify-content: space-evenly;
+}
