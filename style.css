@@ -36,6 +36,10 @@ body {
 .container3 {
     flex: 4;
     background-color: #e5e7eb;
+    padding: 50px 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container4 {
@@ -144,3 +148,23 @@ a.link {
     flex-direction: column;
 /*     border: 1px black solid;
  */}
+
+ /* container3 */
+
+ .text,
+ .autor {
+}
+
+.text  {
+    color: #1f2937a2;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.autor  {
+    color: #1f2937e2;
+    text-align: end;
+    font-weight: 1000;
+    font-size: 25px;
+    
+  }
