@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     padding: 10px 400px;
     justify-content: center;
-    
+    gap: 30px;
 }
 
 .container2 {
@@ -55,6 +55,9 @@ body {
 .footer {
     flex: 1;
     background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -94,6 +97,7 @@ a.link {
      width: 50%;
      flex-wrap: wrap;
      display: flex;
+     flex-direction: column;
 
  }
 .title {
@@ -116,9 +120,10 @@ a.link {
 
 .singup1 {
     background-color: #3882F6;
-    padding: 7px 40px;
+    padding: 10px 50px;
     border-radius: 12px;
     border: none;
+    align-self: flex-start;
 }
 .singup1 a  {
     color: #F9faf8;
@@ -138,7 +143,7 @@ a.link {
 .photo_cont {
     display: flex;
     justify-content: space-around;
-    gap: 50px;
+    gap: 80px;
     flex-wrap: wrap;
 }
 
@@ -218,4 +223,11 @@ a.link {
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;    
+}
+
+.footer p {
+    color: #e5e7eba1;
+    font-size: 20px;
+    font-weight: 100;
+    
 }
